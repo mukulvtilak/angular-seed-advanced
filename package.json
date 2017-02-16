@@ -58,7 +58,8 @@
     "webdriver-start": "webdriver-manager start",
     "webdriver-update": "webdriver-manager update",
     "compodoc": "node_modules/.bin/compodoc -p src/client/tsconfig.json",
-    "serve.compodoc": "node_modules/.bin/compodoc -s"
+    "serve.compodoc": "node_modules/.bin/compodoc -s",
+    "backend": "node src/server/server.js"
   },
   "author": "Minko Gechev <mgechev>",
   "contributors": [
@@ -185,6 +186,7 @@
     "intl": "^1.2.5",
     "lodash": "^4.17.4",
     "minimatch": "^3.0.3",
+    "mongoose": "^4.8.2",
     "ng2-translate": "^5.0.0",
     "reflect-metadata": "^0.1.8",
     "rxjs": "~5.0.3",
