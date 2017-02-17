@@ -36,6 +36,7 @@ router.get('/',(req,res) => {
 
 // more routes for our API will happen here
 // try exporting and importing modules ES6 Style
+// refer this => https://www.sitepoint.com/understanding-module-exports-exports-node-js/
 router.route('/bears')
 	.post((req,res)=>{
 		var bear = new Bear();//new instance of model Bear
