@@ -35,7 +35,7 @@ router.get('/',(req,res) => {
 });
 
 // more routes for our API will happen here
-
+// try exporting and importing modules ES6 Style
 router.route('/bears')
 	.post((req,res)=>{
 		var bear = new Bear();//new instance of model Bear
