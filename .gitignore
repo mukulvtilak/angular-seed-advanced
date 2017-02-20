@@ -49,6 +49,7 @@ tmp
 
 src/**/*.js
 src/**/*.js.map
+!src/server/**/*.js
 !src/client/app/shared/test
 nativescript/app
 nativescript/src/app
