@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 // Use the body-parser package in our application
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//Initial dummy route for testing
+//Middleware for validation etc
 // http://localhost:4000/api
 router.use((req,res,next) => {
 	console.log('something happening');
