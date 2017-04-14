@@ -17,5 +17,15 @@
     "nativescript/src/**/*.js": true,
     "ChromeDebugger-UserData/**/*": true
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+"typescript.tsdk": "node_modules/typescript/lib",
+"angulardoc.repoId": "734da4b9-5ede-4914-b58f-6a434f472969",
+"angulardoc.directoryFilter": [
+    "!typings",
+    "!node_modules",
+    "!.vscode"
+],
+"angulardoc.fileFilter": [
+    "**/!(*.*spec).ts"
+],
+"angulardoc.lastSync": 0
 }

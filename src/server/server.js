@@ -24,6 +24,8 @@ mongoose.connect('mongodb://localhost:27017/test');
 // http://localhost:4000/api
 app.use((req,res,next) => {
 	console.log('something happening');
+	console.log('mid-ware | req => ', req.body);
+	console.log('mid-ware | res => ', res.body);
 	next();
 });
 
